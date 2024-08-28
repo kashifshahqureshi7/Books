@@ -39,6 +39,7 @@ namespace SchoolManegment.Web.Host.Startup
 
         public void ConfigureServices(IServiceCollection services)
         {
+            
             var builder = WebApplication.CreateBuilder();
             var provider = builder.Services.BuildServiceProvider();
             var config = provider.GetRequiredService<IConfiguration>();

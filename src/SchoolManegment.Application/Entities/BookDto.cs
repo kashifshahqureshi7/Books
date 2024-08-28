@@ -16,5 +16,6 @@ namespace SchoolManegment.Entities
         public DateTime CreateddDate { get; set; } = DateTime.Now;
         public int AuthorId { get; set; }
         public int? BookCoverId { get; set; }
+       
     }
 }
